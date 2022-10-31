@@ -105,9 +105,44 @@ body{
 
 .footer-texto{
     font-size: 200%;
+    display: flex;
+    align-items: center;
 }
 
-.banner2{
-    width: 100%;
+.sobrehelgud{
+    display: flex;
+}
+
+.sobrehelgud img{
+    width: 85%;
     height: 50vh;
+}
+
+.sobrehelgud-info{
+    display: block;
+}
+
+.sobrehelgud-titulo{
+    color: #DFB744;
+    font-size: 300%;
+    font-family: 'Adamina';
+}
+
+.sobrehelgud-texto{
+    font-family: 'Adamina';
+    color: #4CAF50;
+    font-size: 140%;
+}
+
+.colhendo{
+    text-align: center;
+}
+
+.colhendo-texto{
+    font-size: 230%;
+}
+
+.colhendo iframe{
+    width: 60%;
+    height: 60vh;
 }
